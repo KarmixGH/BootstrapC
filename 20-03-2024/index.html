@@ -9,28 +9,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: #f7f7f8;">
 
     <header>
         <nav class="container d-flex justify-content-between mt-4 p-4 border-bottom">
             <div class="buttons-left d-flex gap-5 align-items-center">
                     <div class="logo-nav">
-                        <img src="./PNGS/Logo.svg" alt="">
+                        <a href=""><img src="./PNGS/Logo.svg" alt=""></a>
                     </div>
                     <ul class="list-group d-flex flex-row list-unstyled gap-3">
-                        <li><button class="list-group-item list-group-item-action btn rounded ">Home</button></li>
-                        <li><button class="list-group-item list-group-item-action btn rounded">Courses</button></li>
-                        <li><button class="list-group-item list-group-item-action btn rounded">About Us</button></li>
-                        <li><button class="list-group-item list-group-item-action btn rounded">Pricing</button></li>
-                        <li><button class="list-group-item list-group-item-action btn rounded">contact</button></li>
+                        <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Home</button></a></li>
+                        <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Courses</button></a></li>
+                        <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">About Us</button></a></li>
+                        <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Pricing</button></a></li>
+                        <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">contact</button></a></li>
                     </ul>
             </div>
 
             <div class="buttons-right">
                 <ul class="list-group d-flex flex-row list-unstyled gap-3">
-                    <li><button class="list-group-item list-group-item-action btn rounded">Sign Up</button></li>
-                    <li><button class="list-group-item list-group-item-action btn rounded" style="background-color: orange ; color: white; border">Login</button>
-                    </li>
+                    <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Sign Up</button></a></li>
+                    <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light" style="background-color: orange ; color: white; border">Login</button></a></li>
                 </ul>
             </div>
         </nav>
@@ -38,21 +37,53 @@
 
     <main class="d-flex flex-column align-items-center">
         <div class="starter-ad d-flex flex-column align-items-center">
-            <div class="firstrow w-100 text-center" style="margin-top:20%;">
-                <div class="unlock-yo-potential d-flex gap-4">
+            <div class="firstrow w-100 text-center" style="margin-top:15%;">
+                <div class="unlock-yo-potential d-flex gap-4 p-2 rounded" style="background-color: white; border: 1px solid rgba(128, 128, 128, 0.1);">
                     <img src="./PNGS/Icon Container.svg" alt="">
-                    <h1><span style="color: orange;"> Unlock </span> Your Creative Potential</h1>
+                    <p class="h1"><span style="color: orange;"> Unlock </span> Your Creative Potential</p>
                 </div>
                 <div class="bot-unlock-yo-potential mt-2">
-                    <h3>with Online Design and Development Courses.</h2>
-                    <h6>Learn from Industry Experts and Enhance Your Skills.</h4>
+                    <p class="h3">with Online Design and Development Courses.</p>
+                    <p class="h6">Learn from Industry Experts and Enhance Your Skills.</p>
                 </div>
             </div>
             <div class="buttons-unlock-yo-potential mt-5 ">
-                <button class="btn rounded" style="background-color: orange; color: white;">Explore Courses</button>
-                <button class="btn rounded btn-light" > View Pricing</button>
+                <a href=""><button class="btn rounded" style="background-color: orange; color: white;">Explore Courses</button></a>
+               <a href=""><button class="btn rounded btn-light" style="background-color: white;" > View Pricing</button></a>
             </div>
         </div>
+        
+        <div class="container">
+            <div class="sources rounded p-4" style="background-color: white; border: 1px solid rgba(128, 128, 128, 0.1); margin-top: 10%;">
+                <div class="inside-sources row justify-content-center gap-1">
+                    <div class="zapier border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card.svg" alt=""></a></div>
+                    <div class="spotify border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card (6).svg" alt=""></a></div>
+                    <div class="zoom border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card (1).svg" alt=""></a></div>
+                    <div class="amazon border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card (2).svg" alt=""></a></div>
+                    <div class="adobe border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card (3).svg" alt=""></a></div>
+                    <div class="notion border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card (4).svg" alt=""></a></div>
+                    <div class="netflix border rounded col-11 col-md-5 col-lg-auto"><a href=""><img src="./PNGS/Card (5).svg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-player-random col-10 p-4" style="background-color: orange; height: 75vh; margin-top: 10%;">
+            Video
+        </div>
+
+    <div class="card-menu container d-flex justify-content-between align-items-center" style="margin-top: 10%;">
+
+        <div class="starter-text col-10">
+            <p class="h2">Benefits</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ut perferendis nobis fugit qui at aut, aperiam aliquam doloremque molestiae iusto laudantium sit tempore deleniti ea tempora repellendus incidunt consequatur?</p>
+        </div>
+
+        <div class="starter-text-button">
+            <button class="btn btn-light p-2" style="background-color: white;">View All</button>
+        </div>
+        
+    </div>
+
     </main>
 
     <script src="./js/bootstrap.min.js"></script>
