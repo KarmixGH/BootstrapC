@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="container d-flex flex-wrap justify-content-between mt-4 p-4 border-bottom flex-column flex-lg-row">
+
+        <div class="buttons-left d-flex gap-5 align-items-center col-8">
+            <ul class="list-group d-flex flex-row list-unstyled gap-3">
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Home</button></a></li>
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Courses</button></a></li>
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">About Us</button></a></li>
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Pricing</button></a></li>
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">contact</button></a></li>
+            </ul>
+        </div>
+    
+        <div class="buttons-right col-4">
+            <ul class="list-group d-flex flex-row list-unstyled gap-3 justify-content-end">
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light">Sign Up</button></a></li>
+                <li><a href=""><button class="list-group-item list-group-item-action btn rounded btn-light" style="background-color: orange; color: white;">Login</button></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <br>
+
+      <div class="container">
+        <div class="d-none d-lg-flex justify-content-between gap-5 p-2">
+          <div class="border border rounded">
+            <p class="h1 text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consectetur odit temporibus, tenetur numquam.</p>
+            <hr>
+            <p class="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, consequatur. Ipsa repudiandae iure quasi quae.</p>
+            <hr>
+            <p class="h3 text-lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit iste sit, beatae soluta porro!</p>
+          </div>
+          <div class="border border rounded">
+            <p class="h1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consectetur odit temporibus, tenetur numquam.</p>
+            <hr>
+            <p class="h2 text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, consequatur. Ipsa repudiandae iure quasi quae.</p>
+            <hr>
+            <p class="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit iste sit, beatae soluta poro!</p>
+          </div>
+        </div>
+        <div class="d-lg-none">
+          <div class="d-flex flex-wrap">
+            <div class="border border rounded m-2">
+              <p class="h4 text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consectetur odit temporibus, tenetur numquam.</p>
+              <hr>
+              <p class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, consequatur. Ipsa repudiandae iure quasi quae.</p>
+              <hr>
+              <p class="h6 text-lowercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit iste sit, beatae soluta porro!</p>
+            </div>
+            <div class="border border rounded m-2">
+              <p class="h4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consectetur odit temporibus, tenetur numquam.</p>
+              <hr>
+              <p class="h5 text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, consequatur. Ipsa repudiandae iure quasi quae.</p>
+              <hr>
+              <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit iste sit, beatae soluta poro!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <br>
+
+
+      <table class="table table-hover container">
+        <thead>
+          <tr class="table-active">
+            <th>#</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th >1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr class="table-warning">
+            <th>3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="checks container">
+          <div class="form-check  mt-5">
+            <input class="form-check-input" type="checkbox" id="CheckDefault">
+            <label class="form-check-label" for="CheckDefault">
+              Default checkbox
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="CheckDisabled" disabled>
+            <label class="form-check-label" for="CheckDisabled">
+              Disabled checkbox
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="CheckedDisabled" checked disabled>
+            <label class="form-check-label" for="CheckedDisabled">
+              Disabled checked checkbox
+            </label>
+          </div>
+      </div>
+
+    <div class="radios container mt-5">
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Default radio
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios2">
+            <label class="form-check-label" for="exampleRadios2">
+              Second radio
+            </label>
+          </div>
+          
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Radios" id="exampleRadios3" disabled>
+            <label class="form-check-label" for="exampleRadios3">
+              Disabled radio
+            </label>
+          </div>
+
+    </div>
+
+    <div class="switches container">
+        <div class="form-check form-switch mt-5">
+            <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck">
+            <label class="form-check-label" for="SwitchCheck">Default switch</label>
+          </div>
+    </div>
+
+    <div class="container check-buttons mt-5 d-flex gap-5">
+        <div class="first">
+            <input type="checkbox" class="btn-check" id="btn-check-outlined">
+            <label class="btn btn-outline-primary" for="btn-check-outlined">Toggle</label><br>
+        </div>
+
+        <div class="second">
+                <input type="checkbox" class="btn-check" id="btn-check-outlined-red">
+                <label class="btn btn-outline-danger" for="btn-check-outlined-red">Toggle</label><br>
+        </div>
+    </div>
+
+
+    <div class="input-group mb-3 mt-5 container">
+        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+    
+    <div class="input-group mb-3 container mt-5">
+        <label class="input-group-text" for="inputGroupFile01">Upload</label>
+         <input type="file" class="form-control" id="inputGroupFile01">
+    </div>
+    
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
